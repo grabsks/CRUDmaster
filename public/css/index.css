@@ -1,0 +1,81 @@
+#list-heading{
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top: 2px solid black;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 18px;
+    background-color: white;
+}
+
+#list-add-btn{
+    width: 50px;
+    left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    flex-direction: row;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    -webkit-transition: width 0.2s ease-in-out;
+    -moz-transition: width 0.2s ease-in-out;
+    -ms-transition: width 0.2s ease-in-out;
+    -o-transition: width 0.2s ease-in-out;
+    transition: width 0.2s ease-in-out;
+}
+
+#list-add-btn:hover{
+    left: 10px;
+    width: 160px;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    background-color: lightgrey;
+}
+
+#list-container{
+    background-color: #36393B;
+    width: 100%;
+    min-height: 800px;
+    max-height: 100%;
+    font-size: 18px;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.list-row{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    word-break: break-all;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.list-item{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.icons a{
+    color: white !important; 
+    font-size: 25;
+}
